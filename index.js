@@ -14,6 +14,11 @@ const client = new Client({
 
 const weatherApiKey = process.env.weather_Key
 
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag}`);
+  });
+  
+
 client.on('messageCreate', async (message) => {
     if (message.content.startsWith('!weather')) {
       const args = message.content.split(' ');
