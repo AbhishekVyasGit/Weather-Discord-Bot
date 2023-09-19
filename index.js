@@ -39,7 +39,7 @@ client.on('messageCreate', async (message) => {
   
         message.reply(`Weather in ${city}: ${description}, Temperature: ${temperature}°C`);
       } catch (error) {
-        console.error(error);
+        console.error(error.message);
         message.reply('An error occurred while fetching weather information.');
       }
     }
