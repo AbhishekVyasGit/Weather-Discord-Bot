@@ -93,14 +93,3 @@ The bot operates as follows:
 
 To use this bot, invite it to your Discord server and simply send a message containing "ping." The bot will respond with "Pong!" immediately.
 
-## Configuration
-
-Before using this bot, you need to configure it by replacing `'YOUR_BOT_TOKEN_HERE'` with your actual Discord bot token.
-
-## Deployment
-
-You can deploy this bot to a server or a hosting platform of your choice. Be sure to keep your bot token secure and avoid sharing it publicly or exposing it in your code repositories.
-
-## Conclusion
-
-The "Ping Pong Bot" is a basic example of a Discord bot using `discord.js`. You can use this as a starting point to build more complex bots with additional features and commands.
